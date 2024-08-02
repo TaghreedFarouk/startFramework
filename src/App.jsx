@@ -19,7 +19,7 @@ import { faFortAwesome } from '@fortawesome/free-brands-svg-icons/faFortAwesome'
 
 
 function App() {
-   let router= createBrowserRouter([
+   let router= createHashRouter([
     {path:'',element:<Layout/>,children:[ 
       {index:true,element:<About/>},
       {path:'about',element:<About/>},
